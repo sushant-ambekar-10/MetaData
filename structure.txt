@@ -1,0 +1,63 @@
+portfolio/
+├── .gitignore
+├── README.md                      (Phase 6)
+├── client/                        (Phases 2–6)
+│   ├── public/                    (resume.pdf, favicons, robots.txt, sitemap.xml)
+│   └── src/
+│       ├── app/  components/{ui,sections,motion}  pages/  hooks/
+│       ├── lib/{api,motion,seo}  data/fallback.json  styles/  assets/
+└── server/                        (Phase 1, this message)
+    ├── package.json
+    ├── .env.example
+    └── src/
+        ├── app.js
+        ├── server.js
+        ├── config/
+        │   ├── env.js
+        │   ├── db.js
+        │   └── cors.js
+        ├── models/
+        │   ├── _shared.js
+        │   ├── Project.js
+        │   ├── Skill.js
+        │   ├── Certification.js
+        │   ├── Achievement.js
+        │   ├── Experience.js
+        │   ├── Qualification.js
+        │   ├── Profile.js
+        │   ├── Testimonial.js
+        │   ├── Stat.js
+        │   ├── Message.js
+        │   ├── Admin.js
+        │   └── index.js
+        ├── validators/
+        │   ├── content.js
+        │   ├── auth.js
+        │   └── contact.js
+        ├── middleware/
+        │   ├── auth.js
+        │   ├── csrf.js
+        │   ├── validate.js
+        │   ├── rateLimit.js
+        │   └── error.js
+        ├── controllers/
+        │   ├── crud.factory.js
+        │   ├── auth.controller.js
+        │   ├── contact.controller.js
+        │   ├── profile.controller.js
+        │   ├── message.controller.js
+        │   └── github.controller.js
+        ├── routes/
+        │   ├── index.js
+        │   └── crud.routes.js
+        ├── services/
+        │   ├── mail.js
+        │   └── github.js
+        ├── utils/
+        │   ├── AppError.js
+        │   ├── slugify.js
+        │   └── escapeHtml.js
+        └── seed/
+            ├── data.js
+            ├── seed.js
+            └── exportFallback.js
