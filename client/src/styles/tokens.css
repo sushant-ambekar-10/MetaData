@@ -1,0 +1,56 @@
+/*
+  MIDNIGHT AURORA design tokens: the single source of truth for colour.
+  Colours are space-separated RGB so Tailwind can apply opacity (bg-a1/20).
+  Contrast notes (WCAG AA): fg/muted pass 4.5:1 on bg, surface and surface-2 in both themes.
+  --a1-text / --a2-text are the text-safe accent shades; use --a1 / --a2 for decoration.
+  --on-accent is the text colour for solid coral (CTA) buttons.
+*/
+
+:root,
+[data-theme='dark'] {
+  --bg: 7 10 19; /* #070A13 ink */
+  --surface: 14 19 34; /* #0E1322 */
+  --surface-2: 21 27 48; /* #151B30 */
+  --fg: 234 240 255; /* #EAF0FF */
+  --muted: 139 151 181; /* #8B97B5 */
+
+  --a1: 124 92 255; /* violet #7C5CFF */
+  --a2: 34 211 238; /* cyan   #22D3EE */
+  --a3: 255 122 89; /* coral  #FF7A59 (CTAs, sparingly) */
+  --a1-text: 165 148 255; /* readable violet for text */
+  --a2-text: 34 211 238;
+  --on-accent: 7 10 19;
+
+  --border: rgb(255 255 255 / 0.08);
+  --border-strong: rgb(255 255 255 / 0.16);
+  --glass: rgb(14 19 34 / 0.6);
+
+  --aurora-strength: 0.32;
+  --noise-opacity: 0.05;
+
+  --font-heading: 'Sora Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+[data-theme='light'] {
+  --bg: 246 244 238; /* #F6F4EE warm paper */
+  --surface: 255 255 255;
+  --surface-2: 239 236 227; /* #EFECE3 */
+  --fg: 18 22 43; /* #12162B */
+  --muted: 91 100 130; /* #5B6482 */
+
+  --a1: 91 61 245; /* deepened violet */
+  --a2: 8 145 178; /* deepened cyan (decorative) */
+  --a3: 229 82 47; /* deepened coral */
+  --a1-text: 91 61 245;
+  --a2-text: 14 116 144; /* text-safe cyan */
+  --on-accent: 18 22 43;
+
+  --border: rgb(18 22 43 / 0.1);
+  --border-strong: rgb(18 22 43 / 0.18);
+  --glass: rgb(255 255 255 / 0.7);
+
+  --aurora-strength: 0.2;
+  --noise-opacity: 0.06;
+}
