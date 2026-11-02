@@ -12,7 +12,7 @@ export const SITE = {
   url: rawUrl.replace(/\/$/, ''),
   ogImage: '/og-image.png', // TODO (Phase 6): add a 1200x630 image at client/public/og-image.png
   email: 'sushantsambekar@gmail.com',
-  roles: ['Full-Stack Developer', 'Android Developer', 'DevOps Learner', 'Problem Solver'] as string[],
+  roles: ['GenAI Full-Stack Developer', 'MERN Developer', 'Problem Solver'] as string[],
   social: {
     linkedin: 'https://www.linkedin.com/in/sushant-ambekar-066b06316/',
     github: 'https://github.com/sushant-ambekar-10',

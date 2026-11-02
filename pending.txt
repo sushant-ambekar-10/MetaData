@@ -1,0 +1,5 @@
+1. Admin
+2. Update all details
+3. Proper Resume 
+4. Email
+5. Deployment

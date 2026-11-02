@@ -23,7 +23,7 @@ export function Hero() {
   const yPhoto = useTransform(scrollYProgress, [0, 1], [0, reduce ? 0 : 90]);
   const fade = useTransform(scrollYProgress, [0, 0.8], [1, reduce ? 1 : 0.2]);
 
-  const roles = profile.roles?.length ? profile.roles : SITE.roles;
+  const roles = SITE.roles;
 
   return (
     <section ref={ref} className="relative isolate overflow-hidden">
