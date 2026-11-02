@@ -1,0 +1,784 @@
+{
+  "profile": {
+    "fullName": "Sushant Sanjay Ambekar",
+    "tagline": "To digitize the mind",
+    "githubBio": "Innovating with Code | Building Smart Solutions",
+    "bio": "CSE student and developer exploring web, DevOps, Android, AI and ML.",
+    "roles": [
+      "Full-Stack Developer",
+      "Android Developer",
+      "DevOps Learner",
+      "Problem Solver"
+    ],
+    "emails": [
+      "sushantsambekar@gmail.com",
+      "23030151@ycce.in"
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/sushant-ambekar-066b06316/",
+      "github": "https://github.com/sushant-ambekar-10",
+      "instagram": "https://www.instagram.com/sushant_ambekar_10/"
+    },
+    "showFacebook": false,
+    "showDob": false,
+    "resumeUrl": "/resume.pdf"
+  },
+  "stats": [
+    {
+      "id": "stat-0",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "label": "LeetCode problems",
+      "value": 200,
+      "suffix": "+",
+      "platform": "leetcode",
+      "url": "",
+      "order": 0
+    },
+    {
+      "id": "stat-1",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "label": "HackerRank Hackos",
+      "value": 2000,
+      "suffix": "+",
+      "platform": "hackerrank",
+      "url": "",
+      "order": 1
+    },
+    {
+      "id": "stat-2",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "label": "GeeksforGeeks problems",
+      "value": 100,
+      "suffix": "+",
+      "platform": "gfg",
+      "url": "",
+      "order": 2
+    },
+    {
+      "id": "stat-3",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "label": "Hackathon finals",
+      "value": 3,
+      "suffix": "+",
+      "platform": "hackathon",
+      "order": 3
+    },
+    {
+      "id": "stat-4",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "label": "CGPA",
+      "value": 8.82,
+      "decimals": 2,
+      "platform": "academics",
+      "order": 4
+    }
+  ],
+  "qualifications": [
+    {
+      "id": "qual-0",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "level": "B.Tech in Computer Science & Engineering",
+      "institution": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
+      "score": "CGPA 8.82",
+      "year": "Batch '26",
+      "order": 0
+    },
+    {
+      "id": "qual-1",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "level": "Diploma in Information Technology",
+      "institution": "Government Polytechnic Nanded (MSBTE)",
+      "score": "88%",
+      "year": "",
+      "semesters": [
+        {
+          "sem": 3,
+          "sgpa": 8.66
+        },
+        {
+          "sem": 4,
+          "sgpa": 8.8
+        },
+        {
+          "sem": 5,
+          "sgpa": 8.99
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "qual-2",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "level": "SSC",
+      "institution": "Nanded",
+      "score": "90.80%",
+      "year": "",
+      "order": 2
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-0",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "text": "1st Rank in Final Projects (Capstone) in Diploma",
+      "order": 0
+    },
+    {
+      "id": "ach-1",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "text": "2nd Rank in Diploma in Information Technology at Government Polytechnic Nanded",
+      "order": 1
+    },
+    {
+      "id": "ach-2",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "text": "200+ LeetCode problems with 50+ days badge in 2025",
+      "order": 2
+    },
+    {
+      "id": "ach-3",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "text": "2000+ Hackos in HackerRank",
+      "order": 3
+    },
+    {
+      "id": "ach-4",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "text": "100+ GeeksforGeeks problems",
+      "order": 4
+    },
+    {
+      "id": "ach-5",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "text": "4th Rank in Smackathon, Upsurge Event, YCCE-23",
+      "order": 5
+    },
+    {
+      "id": "ach-6",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "text": "One of the finalists in 3+ hackathons",
+      "order": 6
+    },
+    {
+      "id": "ach-7",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "text": "5-star ratings in Java, SQL and Problem Solving on HackerRank",
+      "order": 7
+    },
+    {
+      "id": "ach-8",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "text": "Training & Placement Coordinator @YCCE",
+      "order": 8
+    },
+    {
+      "id": "ach-9",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "text": "Top-10 CGPA ranker",
+      "order": 9
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-0",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "title": "Internship Certification",
+      "issuer": "Kalavati Technologies Pvt. Ltd.",
+      "order": 0
+    },
+    {
+      "id": "cert-1",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "title": "Internship Certification",
+      "issuer": "My Job Grow",
+      "order": 1
+    },
+    {
+      "id": "cert-2",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "title": "Java Certification",
+      "issuer": "HackerRank",
+      "order": 2
+    },
+    {
+      "id": "cert-3",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "title": "SQL Certification",
+      "issuer": "HackerRank",
+      "order": 3
+    },
+    {
+      "id": "cert-4",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "title": "Web Development",
+      "issuer": "Udemy",
+      "order": 4
+    },
+    {
+      "id": "cert-5",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "title": "DevOps",
+      "issuer": "IBM (Coursera)",
+      "order": 5
+    },
+    {
+      "id": "cert-6",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "title": "AWS Cloud",
+      "issuer": "AWS (Coursera)",
+      "order": 6
+    },
+    {
+      "id": "cert-7",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "title": "AI & IBM Cloud Bootcamp",
+      "issuer": "IBM",
+      "order": 7
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-0",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "Java",
+      "category": "Languages",
+      "order": 0
+    },
+    {
+      "id": "skill-1",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Python",
+      "category": "Languages",
+      "order": 1
+    },
+    {
+      "id": "skill-2",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "C",
+      "category": "Languages",
+      "order": 2
+    },
+    {
+      "id": "skill-3",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "JavaScript",
+      "category": "Languages",
+      "order": 3
+    },
+    {
+      "id": "skill-4",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "MERN Stack",
+      "category": "Web",
+      "order": 4
+    },
+    {
+      "id": "skill-5",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "HTML & CSS",
+      "category": "Web",
+      "order": 5
+    },
+    {
+      "id": "skill-6",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Tailwind CSS",
+      "category": "Web",
+      "order": 6
+    },
+    {
+      "id": "skill-7",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Bootstrap",
+      "category": "Web",
+      "order": 7
+    },
+    {
+      "id": "skill-8",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "WordPress",
+      "category": "Web",
+      "order": 8
+    },
+    {
+      "id": "skill-9",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "Java SpringBoot",
+      "category": "Backend/DB",
+      "order": 9
+    },
+    {
+      "id": "skill-10",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "MySQL",
+      "category": "Backend/DB",
+      "order": 10
+    },
+    {
+      "id": "skill-11",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Firebase",
+      "category": "Backend/DB",
+      "order": 11
+    },
+    {
+      "id": "skill-12",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "Android using Java",
+      "category": "Mobile",
+      "order": 12
+    },
+    {
+      "id": "skill-13",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Git & GitHub",
+      "category": "DevOps/Cloud",
+      "order": 13
+    },
+    {
+      "id": "skill-14",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Docker",
+      "category": "DevOps/Cloud",
+      "order": 14
+    },
+    {
+      "id": "skill-15",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "order": 15
+    },
+    {
+      "id": "skill-16",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "order": 16
+    },
+    {
+      "id": "skill-17",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "AWS Cloud",
+      "category": "DevOps/Cloud",
+      "order": 17
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-0",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "role": "Training & Placement Coordinator",
+      "org": "Yeshwantrao Chavan College of Engineering (YCCE)",
+      "type": "leadership",
+      "start": "2024-08-01T00:00:00.000Z",
+      "end": null,
+      "current": true,
+      "description": "Core coordinator of the Training & Placement Cell at YCCE.",
+      "highlights": [
+        "Managed campus drives for Infosys, TCS, HCLTech, Zoho, Infocepts and Jubilant FoodWorks.",
+        "Helped organise the HR Conclave with HR leaders from Persistent Systems, Ather Energy, Swiggy, Zomato, Mahindra and Delaplex."
+      ],
+      "order": 0
+    },
+    {
+      "id": "exp-1",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "role": "Web Development Intern",
+      "org": "My Job Grow",
+      "type": "internship",
+      "start": "2024-08-01T00:00:00.000Z",
+      "end": "2024-11-01T00:00:00.000Z",
+      "description": "Built and deployed responsive full-stack applications.",
+      "highlights": [
+        "Worked with React.js, Node.js, Express.js and MongoDB.",
+        "Developed RESTful services and collaborated with the team using Git.",
+        "Deployed applications using GitHub and Netlify."
+      ],
+      "order": 1
+    },
+    {
+      "id": "exp-2",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "role": "Web Development Intern",
+      "org": "Kalavati Technologies Pvt. Ltd.",
+      "type": "internship",
+      "start": "2022-07-01T00:00:00.000Z",
+      "end": "2022-09-01T00:00:00.000Z",
+      "description": "Industrial training focused on front-end web development.",
+      "highlights": [
+        "Trained in HTML, CSS, JavaScript, Bootstrap and WordPress.",
+        "Built responsive websites with customization and UI design."
+      ],
+      "order": 2
+    }
+  ],
+  "projects": [
+    {
+      "id": "sign-detection-system-for-impaired-person-app",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "Sign Detection System for Impaired Person App",
+      "duration": "Jan 2025 - Present",
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "endDate": null,
+      "category": "ML/AI",
+      "skills": [
+        "Android",
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "IoT"
+      ],
+      "description": "AI app that recognises sign-language gestures and converts them to text and speech, evolving into an IoT Smart Glove.",
+      "longDescription": "The app recognises sign-language gestures and converts them into text and speech. It is evolving into an IoT Smart Glove that uses gesture sensors and word prediction.",
+      "problem": "Sign-language users often struggle to communicate with people who do not understand sign language.",
+      "solution": "A deep-learning model recognises gestures and outputs text or speech; a sensor-based smart glove adds word prediction for faster, more natural conversation.",
+      "github": "https://github.com/sushant-ambekar-10/Sign-Detection-System-for-Impaired-Person-App",
+      "slug": "sign-detection-system-for-impaired-person-app",
+      "order": 0
+    },
+    {
+      "id": "food-waste-management-app",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "Food Waste Management App",
+      "duration": "Jan 2025 - Present",
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "endDate": null,
+      "category": "Android",
+      "skills": [
+        "Android",
+        "Firebase",
+        "Machine Learning"
+      ],
+      "description": "Redistributes surplus food to people in need, with AI that suggests dishes from leftover ingredients.",
+      "longDescription": "An Android app that connects food donors with people in need. An AI feature suggests dishes that can be made from leftover ingredients.",
+      "problem": "Large amounts of edible food are wasted while others go hungry.",
+      "solution": "The app routes surplus food to people in need and helps households reduce waste by suggesting recipes from what they already have.",
+      "github": "https://github.com/sushant-ambekar-10/Food-Waste-Management-App",
+      "slug": "food-waste-management-app",
+      "order": 1
+    },
+    {
+      "id": "cricboi",
+      "published": true,
+      "featured": true,
+      "images": [],
+      "name": "CricbOI",
+      "duration": "Sep 2025",
+      "startDate": "2025-09-01T00:00:00.000Z",
+      "endDate": "2025-09-01T00:00:00.000Z",
+      "category": "Web",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Firebase"
+      ],
+      "description": "A platform for cricket players to register and manage their profiles for cricket organisations.",
+      "github": "https://github.com/sushant-ambekar-10/cricbOl",
+      "liveUrl": "https://todo-live-url.example.com/cricboi",
+      "slug": "cricboi",
+      "order": 2
+    },
+    {
+      "id": "carenow",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "CareNow",
+      "duration": "Jan 2024 - May 2024",
+      "startDate": "2024-01-01T00:00:00.000Z",
+      "endDate": "2024-05-01T00:00:00.000Z",
+      "category": "Android",
+      "skills": [
+        "Android",
+        "Java",
+        "Firebase"
+      ],
+      "description": "Connects patients and caregivers with real-time alerts and health tracking.",
+      "problem": "Patients and caregivers need a simple, reliable way to stay connected and informed.",
+      "solution": "Real-time alerts and health tracking keep caregivers updated on a patient's condition.",
+      "github": "https://github.com/sushant-ambekar-10/CareNow",
+      "slug": "carenow",
+      "order": 3
+    },
+    {
+      "id": "me-tadata",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Me-taData",
+      "duration": "Jan 2024 - Present",
+      "startDate": "2024-01-01T00:00:00.000Z",
+      "endDate": null,
+      "category": "Web",
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind"
+      ],
+      "description": "This portfolio: an interactive, admin-managed personal site built on the MERN stack.",
+      "github": "https://github.com/sushant-ambekar-10/My-Portfolio",
+      "liveUrl": "https://todo-live-url.example.com",
+      "slug": "me-tadata",
+      "order": 4
+    },
+    {
+      "id": "speak2sheet",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Speak2Sheet",
+      "duration": "Jul 2024",
+      "startDate": "2024-07-01T00:00:00.000Z",
+      "endDate": "2024-07-01T00:00:00.000Z",
+      "category": "Other",
+      "skills": [
+        "Python"
+      ],
+      "description": "A Python tool that turns spoken input into structured spreadsheet entries.",
+      "github": "https://github.com/sushant-ambekar-10/Speak2Sheet",
+      "slug": "speak2sheet",
+      "order": 5
+    },
+    {
+      "id": "my-command",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "My-Command",
+      "duration": "Jul 2024",
+      "startDate": "2024-07-01T00:00:00.000Z",
+      "endDate": "2024-07-01T00:00:00.000Z",
+      "category": "Other",
+      "skills": [
+        "Python"
+      ],
+      "description": "A Python utility for running custom commands and automating everyday tasks.",
+      "github": "https://github.com/sushant-ambekar-10/My-Command",
+      "slug": "my-command",
+      "order": 6
+    },
+    {
+      "id": "locity",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Locity",
+      "duration": "Jul 2023 - Present",
+      "startDate": "2023-07-01T00:00:00.000Z",
+      "endDate": null,
+      "category": "Android",
+      "skills": [
+        "Android",
+        "Firebase"
+      ],
+      "description": "An Android app that helps users discover and share places in their city.",
+      "github": "https://github.com/sushant-ambekar-10/Locity",
+      "slug": "locity",
+      "order": 7
+    },
+    {
+      "id": "digvid",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "DigVid",
+      "duration": "Jan 2022 - Jan 2023",
+      "startDate": "2022-01-01T00:00:00.000Z",
+      "endDate": "2023-01-01T00:00:00.000Z",
+      "category": "Web",
+      "skills": [
+        "WordPress"
+      ],
+      "description": "A WordPress-based website built for digital content and video.",
+      "github": "https://github.com/sushant-ambekar-10/DigVid",
+      "liveUrl": "https://todo-live-url.example.com/digvid",
+      "slug": "digvid",
+      "order": 8
+    },
+    {
+      "id": "jnears",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "JnearS",
+      "duration": "Jan 2023",
+      "startDate": "2023-01-01T00:00:00.000Z",
+      "endDate": "2023-01-01T00:00:00.000Z",
+      "category": "Web",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "phpMyAdmin",
+        "Databases"
+      ],
+      "description": "A database-driven web application built with PHP, JavaScript and phpMyAdmin.",
+      "github": "https://github.com/sushant-ambekar-10/JnearS",
+      "liveUrl": "https://todo-live-url.example.com/jnears",
+      "slug": "jnears",
+      "order": 9
+    },
+    {
+      "id": "locify",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Locify",
+      "duration": "Jan 2023",
+      "startDate": "2023-01-01T00:00:00.000Z",
+      "endDate": "2023-01-01T00:00:00.000Z",
+      "category": "Android",
+      "skills": [
+        "Android"
+      ],
+      "description": "An Android app for location-based features and sharing.",
+      "github": "https://github.com/sushant-ambekar-10/Locify",
+      "slug": "locify",
+      "order": 10
+    },
+    {
+      "id": "digital-library",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Digital Library",
+      "duration": "Jan 2020 - Jan 2022",
+      "startDate": "2020-01-01T00:00:00.000Z",
+      "endDate": "2022-01-01T00:00:00.000Z",
+      "category": "Web",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "A web-based digital library for browsing and organising books and resources.",
+      "github": "https://github.com/sushant-ambekar-10/Digital-Library",
+      "liveUrl": "https://todo-live-url.example.com/digital-library",
+      "slug": "digital-library",
+      "order": 11
+    },
+    {
+      "id": "java-compiler",
+      "published": true,
+      "featured": false,
+      "images": [],
+      "name": "Java Compiler",
+      "duration": "Jan 2022",
+      "startDate": "2022-01-01T00:00:00.000Z",
+      "endDate": "2022-01-01T00:00:00.000Z",
+      "category": "Other",
+      "skills": [
+        "Java",
+        "VB.NET"
+      ],
+      "description": "A working Java compiler built with Java and operating-system command knowledge.",
+      "github": "https://github.com/sushant-ambekar-10/Java-Compiler",
+      "slug": "java-compiler",
+      "order": 12
+    }
+  ],
+  "testimonials": []
+}

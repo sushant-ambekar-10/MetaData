@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { Mail, X } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { useProfile } from '@/lib/content';
 import { ease, spring, staggerParent } from '@/lib/motion';
 import { NAV, SITE } from '@/lib/site';
 import { cn, isActivePath } from '@/lib/utils';
@@ -18,6 +19,8 @@ const CENTER = 'at 92% 4%';
 export function MobileMenu({ open, onClose, pathname }: Props) {
   const reduce = useReducedMotion();
   const ref = useRef<HTMLDivElement>(null);
+  const profile = useProfile();
+  const email = profile.emails?.[0] ?? SITE.email;
 
   // Escape closes; Tab is trapped inside the dialog
   useEffect(() => {
@@ -113,15 +116,15 @@ export function MobileMenu({ open, onClose, pathname }: Props) {
           </motion.ul>
 
           <div className="flex flex-col gap-4">
-            <Button to="/resume" size="lg" className="w-full" onClick={() => undefined}>
+            <Button to="/resume" size="lg" className="w-full">
               Resume
             </Button>
             <a
-              href={`mailto:${SITE.email}`}
+              href={`mailto:${email}`}
               className="flex items-center justify-center gap-2 text-sm text-muted hover:text-fg"
             >
               <Mail className="h-4 w-4" aria-hidden="true" />
-              {SITE.email}
+              {email}
             </a>
           </div>
         </motion.div>

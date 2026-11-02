@@ -1,20 +1,31 @@
-import { ArrowUp, Github, Instagram, Linkedin, Mail } from 'lucide-react';
+import { ArrowUp, Facebook, Github, Instagram, Linkedin, Mail, type LucideIcon } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { AnimatedLink } from '@/components/ui/AnimatedLink';
 import { Reveal } from '@/components/motion/Reveal';
 import { useScrollToTop } from '@/app/SmoothScroll';
+import { useProfile } from '@/lib/content';
 import { NAV, SITE } from '@/lib/site';
 
-// TODO (Phase 3): read these from /api/profile so there is one source of truth.
-const SOCIALS = [
-  { label: 'LinkedIn', href: SITE.social.linkedin, Icon: Linkedin },
-  { label: 'GitHub', href: SITE.social.github, Icon: Github },
-  { label: 'Instagram', href: SITE.social.instagram, Icon: Instagram },
-];
+interface Social {
+  label: string;
+  href: string;
+  Icon: LucideIcon;
+}
 
 export function Footer() {
   const scrollToTop = useScrollToTop();
+  const profile = useProfile();
   const year = new Date().getFullYear();
+
+  const email = profile.emails?.[0] ?? SITE.email;
+  const links = profile.links ?? {};
+
+  // Facebook only appears if the admin has enabled it (the API strips it otherwise)
+  const socials: Social[] = [];
+  if (links.linkedin) socials.push({ label: 'LinkedIn', href: links.linkedin, Icon: Linkedin });
+  if (links.github) socials.push({ label: 'GitHub', href: links.github, Icon: Github });
+  if (links.instagram) socials.push({ label: 'Instagram', href: links.instagram, Icon: Instagram });
+  if (links.facebook) socials.push({ label: 'Facebook', href: links.facebook, Icon: Facebook });
 
   return (
     <footer className="relative mt-24 border-t border-line print:hidden">
@@ -22,10 +33,10 @@ export function Footer() {
         <Reveal>
           <p className="label-mono">Have an idea? Let's talk</p>
           <a
-            href={`mailto:${SITE.email}`}
+            href={`mailto:${email}`}
             className="text-gradient mt-3 inline-block break-all font-heading text-display-md font-semibold"
           >
-            {SITE.email}
+            {email}
           </a>
         </Reveal>
 
@@ -46,8 +57,8 @@ export function Footer() {
 
           <div>
             <p className="label-mono mb-4">Connect</p>
-            <ul className="flex items-center gap-3">
-              {SOCIALS.map(({ label, href, Icon }) => (
+            <ul className="flex flex-wrap items-center gap-3">
+              {socials.map(({ label, href, Icon }) => (
                 <li key={label}>
                   <a
                     href={href}
@@ -62,7 +73,7 @@ export function Footer() {
               ))}
               <li>
                 <a
-                  href={`mailto:${SITE.email}`}
+                  href={`mailto:${email}`}
                   aria-label="Send an email"
                   className="grid h-11 w-11 place-items-center rounded-full border border-line-strong text-fg transition-colors duration-200 hover:bg-surface-2"
                 >
@@ -94,7 +105,7 @@ export function Footer() {
         </p>
 
         <p className="mt-10 text-sm text-muted">
-          © {year} {SITE.fullName}. {SITE.tagline}.
+          © {year} {SITE.fullName}. {profile.tagline ?? SITE.tagline}.
         </p>
       </Container>
     </footer>

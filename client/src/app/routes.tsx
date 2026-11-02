@@ -6,6 +6,8 @@ import { Container } from '@/components/ui/Container';
 import { Skeleton } from '@/components/ui/Skeleton';
 
 const Home = lazy(() => import('@/pages/Home'));
+const Projects = lazy(() => import('@/pages/Projects'));
+const ProjectDetail = lazy(() => import('@/pages/ProjectDetail'));
 const Placeholder = lazy(() => import('@/pages/Placeholder'));
 const NotFound = lazy(() => import('@/pages/NotFound'));
 
@@ -35,14 +37,8 @@ export function AnimatedRoutes() {
     <AnimatePresence mode="wait" initial={false}>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Page><Home /></Page>} />
-        <Route
-          path="/projects"
-          element={<Page><Placeholder title="Projects" phase={3} description="Searchable, filterable project cards from the API." /></Page>}
-        />
-        <Route
-          path="/projects/:slug"
-          element={<Page><Placeholder title="Project" phase={3} description="Project detail page with gallery and next/previous." /></Page>}
-        />
+        <Route path="/projects" element={<Page><Projects /></Page>} />
+        <Route path="/projects/:slug" element={<Page><ProjectDetail /></Page>} />
         <Route
           path="/metadata"
           element={<Page><Placeholder title="Me-taData" phase={4} description="The interactive orbit explorer for personal details, skills and more." /></Page>}

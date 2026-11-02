@@ -113,3 +113,12 @@ html.custom-cursor :is(input, textarea, [contenteditable='true']) {
     scroll-behavior: auto !important;
   }
 }
+
+/* Glowing 1px border used by <TiltCard />: the gradient shows only in the 1px ring */
+.glow-border {
+  padding: 1px;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
