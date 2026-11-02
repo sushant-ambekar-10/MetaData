@@ -5,6 +5,7 @@ import { MotionConfig } from 'framer-motion';
 import { ThemeProvider } from './ThemeProvider';
 import { ReadyProvider } from './ReadyProvider';
 import { SmoothScroll } from './SmoothScroll';
+import { ToastProvider } from './ToastProvider';
 
 export function Providers({ children }: { children: ReactNode }) {
   const [queryClient] = useState(
@@ -23,7 +24,9 @@ export function Providers({ children }: { children: ReactNode }) {
         <MotionConfig reducedMotion="user">
           <ThemeProvider>
             <ReadyProvider>
-              <SmoothScroll>{children}</SmoothScroll>
+              <SmoothScroll>
+                <ToastProvider>{children}</ToastProvider>
+              </SmoothScroll>
             </ReadyProvider>
           </ThemeProvider>
         </MotionConfig>

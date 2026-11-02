@@ -2,7 +2,17 @@ import { useQuery } from '@tanstack/react-query';
 import { api, ApiError } from '@/lib/api';
 import { useSlow } from '@/hooks/useSlow';
 import fallbackJson from '@/data/fallback.json';
-import type { Experience, FallbackData, Profile, Project, Stat } from '@/lib/types';
+import type {
+  Achievement,
+  Certification,
+  Experience,
+  FallbackData,
+  Profile,
+  Project,
+  Qualification,
+  Skill,
+  Stat,
+} from '@/lib/types';
 
 // Bundled snapshot of the seed data. Used whenever the API is slow or down.
 export const fallback = fallbackJson as unknown as FallbackData;
@@ -49,28 +59,24 @@ export function useContent<T>({ key, path, fallback: fb, instant = false }: Opti
   return { data, loading, slow, fromFallback: query.isError, refetch: query.refetch };
 }
 
-// ---- Instant hooks (always return data) ----
-export function useProfile(): Profile {
-  const { data } = useContent<Profile>({ key: 'profile', path: '/profile', fallback: fallback.profile, instant: true });
-  return data ?? fallback.profile;
+// Instant hooks: always return data (snapshot first, upgraded when the API answers)
+function useInstant<T>(key: string, path: string, fb: T): T {
+  const { data } = useContent<T>({ key, path, fallback: fb, instant: true });
+  return data ?? fb;
 }
 
-export function useStats(): Stat[] {
-  const { data } = useContent<Stat[]>({ key: 'stats', path: '/stats', fallback: fallback.stats, instant: true });
-  return data ?? fallback.stats;
-}
+export const useProfile = () => useInstant<Profile>('profile', '/profile', fallback.profile);
+export const useStats = () => useInstant<Stat[]>('stats', '/stats', fallback.stats);
+export const useExperience = () => useInstant<Experience[]>('experience', '/experience', fallback.experience);
+export const useQualifications = () =>
+  useInstant<Qualification[]>('qualifications', '/qualifications', fallback.qualifications);
+export const useSkills = () => useInstant<Skill[]>('skills', '/skills', fallback.skills);
+export const useCertifications = () =>
+  useInstant<Certification[]>('certifications', '/certifications', fallback.certifications);
+export const useAchievements = () =>
+  useInstant<Achievement[]>('achievements', '/achievements', fallback.achievements);
 
-export function useExperience(): Experience[] {
-  const { data } = useContent<Experience[]>({
-    key: 'experience',
-    path: '/experience',
-    fallback: fallback.experience,
-    instant: true,
-  });
-  return data ?? fallback.experience;
-}
-
-// ---- Projects: one cached request shared by Home, the list and the detail page ----
+// Projects: one cached request shared by Home, the list, the detail page and the resume
 export function useProjects(instant = false) {
   return useContent<Project[]>({ key: 'projects', path: '/projects', fallback: fallback.projects, instant });
 }

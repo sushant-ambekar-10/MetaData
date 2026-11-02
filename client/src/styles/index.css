@@ -122,3 +122,57 @@ html.custom-cursor :is(input, textarea, [contenteditable='true']) {
   mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   mask-composite: exclude;
 }
+
+/* ---------- Print (Ctrl+P on /resume): clean, ink-friendly, always light ---------- */
+@page {
+  margin: 12mm;
+}
+
+@media print {
+  /* Higher specificity than [data-theme='dark'] in tokens.css, so the dark theme never prints */
+  html[data-theme] {
+    --bg: 255 255 255;
+    --surface: 255 255 255;
+    --surface-2: 244 244 245;
+    --fg: 17 17 17;
+    --muted: 82 82 91;
+    --a1: 67 56 202;
+    --a2: 14 116 144;
+    --a3: 194 65 12;
+    --a1-text: 67 56 202;
+    --a2-text: 14 116 144;
+    --on-accent: 255 255 255;
+    --border: rgb(0 0 0 / 0.15);
+    --border-strong: rgb(0 0 0 / 0.25);
+    --glass: rgb(255 255 255);
+    --noise-opacity: 0;
+    --aurora-strength: 0;
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+  body {
+    min-height: 0 !important;
+  }
+  body::before {
+    display: none !important;
+  }
+  #app-shell {
+    min-height: 0 !important;
+  }
+
+  /* Navbar, footer, progress bar, cursor, toasts, mobile Resume button, page curtain */
+  .fixed {
+    display: none !important;
+  }
+
+  /* Gradient text relies on background-clip, which printers drop */
+  .text-gradient {
+    background: none !important;
+    -webkit-text-fill-color: currentColor !important;
+    color: inherit !important;
+  }
+}
